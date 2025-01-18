@@ -1,0 +1,12 @@
+[package]
+name = "rust_witness_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-bigint = "0.4.6"
+paste = "1.0.0"
+rust-witness = "0.1.2"
+
+[build-dependencies]
+rust-witness = "0.1.2"
