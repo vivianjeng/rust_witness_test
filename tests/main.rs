@@ -3,12 +3,10 @@ mod tests {
     use std::collections::HashMap;
     use num_bigint::BigInt;
 
-    // Assuming the `rust_witness` crate is correctly linked and available
     use rust_witness::witness;
 
     #[test]
     fn test_multiplier2_witness() {
-        // Prepare inputs
         let mut inputs = HashMap::new();
         let a = BigInt::from(10u8);
         let b = BigInt::from(20u8);
