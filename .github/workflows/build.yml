@@ -32,4 +32,4 @@ jobs:
                 set -x
                 rustup install 1.81.0
                 rustup show
-                cargo test
+                cargo +1.81.0 test
