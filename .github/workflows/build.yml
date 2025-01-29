@@ -28,8 +28,4 @@ jobs:
             - name: Build rust
               run: cargo build
             - name: Generate witness
-              run: |
-                set -x
-                rustup install 1.81.0
-                rustup show
-                cargo +1.81.0 test
+              run: cargo test

@@ -5,6 +5,8 @@ mod tests {
 
     use rust_witness::witness;
 
+    rust_witness::witness!(multiplier2);
+
     #[test]
     fn test_multiplier2_witness() {
         let mut inputs = HashMap::new();
