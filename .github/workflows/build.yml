@@ -25,7 +25,5 @@ jobs:
                   override: true
             - name: Run sccache-cache
               uses: mozilla-actions/sccache-action@v0.0.3
-            - name: Build rust
-              run: cargo build
             - name: Generate witness
               run: cargo test
