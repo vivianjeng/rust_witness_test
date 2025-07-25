@@ -4,9 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+rust-witness = { package = "rust-witness", git = "https://github.com/chancehudson/rust-witness.git", rev = "2a25cbb" }
 num-bigint = "0.4.6"
 paste = "1.0.0"
-rust-witness = { package = "rust-witness", git = "https://github.com/chancehudson/rust-witness.git", branch = "fix-c-link" }
 
 [build-dependencies]
-rust-witness = { package = "rust-witness", git = "https://github.com/chancehudson/rust-witness.git", branch = "fix-c-link" }
+rust-witness = { package = "rust-witness", git = "https://github.com/chancehudson/rust-witness.git", rev = "2a25cbb" }

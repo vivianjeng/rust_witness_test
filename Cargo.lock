@@ -77,7 +77,7 @@ checksum = "57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a"
 [[package]]
 name = "rust-witness"
 version = "0.1.5"
-source = "git+https://github.com/chancehudson/rust-witness.git?branch=fix-c-link#9235ca943c0c61e632e50402f69190ab2aa33f49"
+source = "git+https://github.com/chancehudson/rust-witness.git?rev=2a25cbb#2a25cbbd8ff73fe96512906c5a814105397d9792"
 dependencies = [
  "cc",
  "fnv",
