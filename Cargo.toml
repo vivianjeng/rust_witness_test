@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 num-bigint = "0.4.6"
 paste = "1.0.0"
-rust-witness = "0.1.2"
+rust-witness = { package = "rust-witness", git = "https://github.com/chancehudson/rust-witness.git", branch = "fix-c-link" }
 
 [build-dependencies]
-rust-witness = "0.1.2"
+rust-witness = { package = "rust-witness", git = "https://github.com/chancehudson/rust-witness.git", branch = "fix-c-link" }
